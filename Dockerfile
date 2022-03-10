@@ -20,7 +20,7 @@ RUN sed -i 's/# deb-src/deb-src/' /etc/apt/sources.list &&\
     libotf-dev \
     libsystemd-dev \
     libjansson-dev \
-    libgccjit-11-dev \
+    libgccjit-10-dev \
     libgif-dev \
     librsvg2-dev  \
     libxml2-dev \
