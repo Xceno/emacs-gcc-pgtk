@@ -40,7 +40,7 @@ RUN update-ca-certificates \
     && mv emacs/* .
 
 # Build
-ENV CC="gcc-11"
+ENV CC="gcc-9"
 RUN ./autogen.sh && ./configure \
     --prefix "/usr/local" \
     --with-native-compilation \
